@@ -43,6 +43,7 @@ This is my personal collection of dotfiles and init configurations, orchestrated
 ### Global
 
 * zero
+* stow #Zero dependency
 * 1password-cli
 * awscli
 * terraform
