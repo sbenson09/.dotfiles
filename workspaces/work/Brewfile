@@ -1,0 +1,17 @@
+# brew taps
+
+# set arguments for all 'brew install --cask' commands
+cask_args appdir: "/Applications", require_sha: true
+
+# 'brew install' via  `brew "[packagename]"``
+brew "python@3.11"
+
+# 'brew install --cask' via `cask "[packagename]"`
+
+
+
+# 'mas install' via `mas "[packagename], id: [idnumber]`
+
+
+
+# 'vscode --install-extension' via `vscode "[identifier]"`
