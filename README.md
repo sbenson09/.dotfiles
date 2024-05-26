@@ -1,5 +1,7 @@
 # dotfiles
 
+This is my personal collection of dotfiles and init configurations, orchestrated via [zero](https://github.com/zero-sh/zero.sh).
+
 ## Tools
 
 | Tool | Purpose | Configfile | Configurations |
@@ -10,7 +12,7 @@
 | [MesloLGS Nerd Font](N/A) | Terminal font | install via homebrew | N/A |
 | [oh-my-zsh](https://ohmyz.sh) | Zsh configuration framework | ~/.zshrc | plugins: git zsh-autosuggestions kubectl aws brew colored-man-pages command-not-found docker docker-compose gh helm kubectx macos kind pip python pyenv terraform vagrant vscode gcloud zsh-syntax-highlighting powerlevel10k, bat theme |
 | [vim](https://www.vim.org) | Screen-based text editor | ~/.vimrc | Turn on number lines, syntax highlighting |
-| [VSCode](https://code.visualstudio.com) | Code editor | ~/Library/Application Support/Code/User/settings.json | Hyper theme, text wrapping, autopep8 on save, terraform fmt on save, integrated terminal font, ini/properties autoformat on save. Extensions synced by VSCode, user settings captured in configfile |
+| [VSCode](https://code.visualstudio.com) | Code editor | ~/Library/Application Support/Code/User/settings.json | Hyper theme, text wrapping, autopep8 on save, terraform fmt on save, integrated terminal font, ini/properties autoformat on save, git autofetch. Extensions synced by VSCode, user settings captured in configfile |
 | [git](https://git-scm.com) | Version control system | ~/.gitconfig | User config, 1Password Config, aliases, editor config, auto setup remote for push |
 | [bat](https://github.com/sharkdp/bat) | A cat clone with git integration | N/A | Theme |
 | [zero](https://github.com/zero-sh/zero.sh) | Idempotent tool for managing dotfiles and initializing a system | ~/dotfiles/ | Config files, brew applications, scripts to run before and after |
@@ -20,6 +22,7 @@
 ## Dotfiles managed
 
 ### Global
+
 * ~/.zshrc
 * ~/.hyper.js
 * ~/.p10k.zsh
@@ -28,14 +31,17 @@
 * ~/.ssh/config
 
 ### Home only
+
 * ~/.gitconfig
 
 ### Work only
+
 * ~/.gitconfig
 
 ## Brew packages installed
 
 ### Global
+
 * 1password-cli
 * awscli
 * terraform
@@ -72,11 +78,12 @@
 * vagrant
 * google-cloud-sdk
 * hyper
-* stats 
+* stats
 * postman
 * wireshark
 
 ### Home only
+
 * sony-ps-remote-play (home)
 * joplin (home)
 * calibre (home)
@@ -101,6 +108,7 @@
 * python (home)
 
 ### Work only
+
 * python@3.11 (work)
 
 ## Usage
