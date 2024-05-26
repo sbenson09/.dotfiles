@@ -1,0 +1,69 @@
+# brew taps
+
+# set arguments for all 'brew install --cask' commands
+cask_args appdir: "/Applications", require_sha: true
+
+# 'brew install' via  `brew "[packagename]"``
+brew "1password-cli"
+brew "ansible"
+brew "awscli"
+brew "bat"
+brew "dive"
+brew "gh"
+brew "go"   
+brew "helm"
+brew "htop"
+brew "hugo"
+brew "jq"
+brew "kind"
+brew "kubectx"
+brew "kubernetes-cli"
+brew "mas"
+brew "nmap"
+brew "node"
+brew "pure"
+brew "stow "
+brew "terraform"
+brew "tree"
+brew "trivy"
+brew "wget"
+brew "zero"
+brew "zsh-syntax-highlighting"
+
+# 'brew install --cask' via `cask "[packagename]"`
+cask "1password"
+cask "docker"
+cask "github"
+cask "google-cloud-sdk"
+cask "hyper"
+cask "monitorcontrol"
+cask "notion"
+cask "postman"
+cask "raycast"
+cask "rectangle"
+cask "slack"
+cask "stats"
+cask "the-unarchiver"
+cask "vagrant"
+cask "visual-studio-code"
+cask "wireshark"
+cask "zoom"
+
+# 'mas install' via `mas "[packagename], id: [idnumber]`
+mas "Menu Bar Controller for Sonos", id: 1357379892
+mas "Microsoft RDP", id: 1295203466
+mas "Anybox", id: 1593408455
+
+
+# 'vscode --install-extension' via `vscode "[identifier]"`
+vscode "grafana.vscode-jsonnet"
+vscode "hashicorp.hcl"
+vscode "hashicorp.terraform"
+vscode "hsnazar.hyper-term-theme"
+vscode "lkrms.inifmt"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.autopep8"
+vscode "foxundermoon.shell-format"
+
+

@@ -1,0 +1,38 @@
+# brew taps
+
+# set arguments for all 'brew install --cask' commands
+cask_args appdir: "/Applications", require_sha: true
+
+# 'brew install' via  `brew "[packagename]"``
+
+
+# 'brew install --cask' via `cask "[packagename]"`
+cask "sony-ps-remote-play"
+cask "joplin"
+cask "calibre"
+cask "android-file-transfer"
+cask "send-to-kindle"
+cask "pocket-casts"
+cask "transmission"
+cask "grandperspective"
+cask "utm"
+cask "sonos"
+cask "tailscale"
+cask "anki"
+cask "caffeine"
+cask "signal"
+cask "discord"
+cask "firefox"
+cask "spotify"
+cask "basecamp"
+cask "steam"
+cask "hey"
+cask "vivaldi"
+cask "python"
+
+
+# 'mas install' via `mas "[packagename], id: [idnumber]`
+
+
+
+# 'vscode --install-extension' via `vscode "[identifier]"`
