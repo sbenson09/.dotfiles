@@ -19,20 +19,25 @@
 
 ## Dotfiles managed
 
+### Global
 * ~/.zshrc
 * ~/.hyper.js
 * ~/.p10k.zsh
 * ~/.vimrc
 * ~/Library/Application Support/Code/User/settings.json
-* ~/.gitconfig
 * ~/.ssh/config
+
+### Home only
+* ~/.gitconfig
+
+### Work only
+* ~/.gitconfig
 
 ## Brew packages installed
 
+### Global
 * 1password-cli
 * awscli
-* python (home)
-* python@3.11 (work)
 * terraform
 * htop
 * tree
@@ -56,41 +61,47 @@
 * go
 * 1password
 * rectangle
-* vivaldi (home)
 * visual-studio-code
-* hey (home)
 * monitorcontrol
-* basecamp (home)
-* steam (home)
 * docker
 * the-unarchiver
 * slack
 * zoom
-* discord (home)
-* firefox (home)
-* spotify (home)
 * github
-* caffeine (home)
-* signal (home)
 * raycast
-* tailscale (home)
-* anki (home)
 * vagrant
 * google-cloud-sdk
-* utm (home)
-* sonos (home)
 * hyper
-* pocket-casts (home)
-* transmission (home)
-* grandperspective (home)
 * stats 
 * postman
 * wireshark
+
+### Home only
 * sony-ps-remote-play (home)
 * joplin (home)
 * calibre (home)
 * android-file-transfer (home)
 * send-to-kindle (home)
+* pocket-casts (home)
+* transmission (home)
+* grandperspective (home)
+* utm (home)
+* sonos (home)
+* tailscale (home)
+* anki (home)
+* caffeine (home)
+* signal (home)
+* discord (home)
+* firefox (home)
+* spotify (home)
+* basecamp (home)
+* steam (home)
+* hey (home)
+* vivaldi (home)
+* python (home)
+
+### Work only
+* python@3.11 (work)
 
 ## Usage
 
