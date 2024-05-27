@@ -2,6 +2,13 @@
 
 This is my personal collection of dotfiles and init configurations, orchestrated via [zero](https://github.com/zero-sh/zero.sh).
 
+## Usage
+Run:
+```
+git clone --recursive git@github.com:sbenson09/.dotfiles.git ~/.dotfiles
+~/.dotfiles/zero/setup
+```
+
 ## Tools
 
 | Tool | Purpose | Configfile | Configurations |
