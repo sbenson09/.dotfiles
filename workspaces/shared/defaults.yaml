@@ -51,7 +51,7 @@ com.apple.iTunes:
   dontAutomaticallySyncIPods: false
 
 #com.apple.Safari:
-  # Use substring search by default in Safari.
+# Use substring search by default in Safari.
 #  FindOnPageMatchesWordStartsOnly: false
 
 com.apple.TextEdit:
@@ -77,3 +77,6 @@ com.apple.SoftwareUpdate:
 
   # If true, enables the automatic installation of critical updates and allows the user to change the “Install system data files and security updates” option.
   CriticalUpdateInstall: true
+
+  # If true, selects the “Install app updates from the App Store” option.
+  AutomaticallyInstallAppUpdates: true

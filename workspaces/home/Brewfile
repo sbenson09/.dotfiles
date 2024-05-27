@@ -4,7 +4,7 @@
 cask_args appdir: "/Applications", require_sha: true
 
 # 'brew install' via  `brew "[packagename]"``
-
+brew "python@3.12"
 
 # 'brew install --cask' via `cask "[packagename]"`
 cask "android-file-transfer"
@@ -18,7 +18,6 @@ cask "grandperspective"
 cask "hey"
 cask "joplin"
 cask "pocket-casts"
-cask "python"
 cask "send-to-kindle"
 cask "signal"
 cask "sonos"
@@ -28,7 +27,7 @@ cask "steam"
 cask "tailscale"
 cask "transmission"
 cask "utm"
-cask "vivaldi"
+cask "vivaldi", greedy: true
 
 
 # 'mas install' via `mas "[packagename], id: [idnumber]`
