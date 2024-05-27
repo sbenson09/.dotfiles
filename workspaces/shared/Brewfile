@@ -6,7 +6,6 @@ tap "zero-sh/tap"
 cask_args appdir: "/Applications", require_sha: true
 
 # 'brew install' via  `brew "[packagename]"``
-brew "1password-cli"
 brew "ansible"
 brew "awscli"
 brew "bat"
@@ -24,7 +23,7 @@ brew "mas"
 brew "nmap"
 brew "node"
 brew "pure"
-brew "stow "
+brew "stow"
 brew "terraform"
 brew "tree"
 brew "trivy"
@@ -34,6 +33,7 @@ brew "zsh-syntax-highlighting"
 
 # 'brew install --cask' via `cask "[packagename]"`
 cask "1password"
+cask "1password-cli"
 cask "docker"
 cask "github"
 cask "google-cloud-sdk"
@@ -53,8 +53,7 @@ cask "zoom"
 
 # 'mas install' via `mas "[packagename], id: [idnumber]`
 mas "Anybox", id: 1593408455
-mas "Menu Bar Controller for Sonos", id: 1357379892
-mas "Microsoft RDP", id: 1295203466
+
 
 
 # 'vscode --install-extension' via `vscode "[identifier]"`

@@ -7,32 +7,38 @@ cask_args appdir: "/Applications", require_sha: true
 
 
 # 'brew install --cask' via `cask "[packagename]"`
-cask "sony-ps-remote-play"
-cask "joplin"
-cask "calibre"
 cask "android-file-transfer"
-cask "send-to-kindle"
-cask "pocket-casts"
-cask "transmission"
-cask "grandperspective"
-cask "utm"
-cask "sonos"
-cask "tailscale"
 cask "anki"
+cask "basecamp"
 cask "caffeine"
-cask "signal"
+cask "calibre"
 cask "discord"
 cask "firefox"
-cask "spotify"
-cask "basecamp"
-cask "steam"
+cask "grandperspective"
 cask "hey"
-cask "vivaldi"
+cask "joplin"
+cask "pocket-casts"
 cask "python"
+cask "send-to-kindle"
+cask "signal"
+cask "sonos"
+cask "sony-ps-remote-play"
+cask "spotify"
+cask "steam"
+cask "tailscale"
+cask "transmission"
+cask "utm"
+cask "vivaldi"
 
 
 # 'mas install' via `mas "[packagename], id: [idnumber]`
-
+mas "Garageband", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Menu Bar Controller for Sonos", id: 1357379892
+mas "Microsoft RDP", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 
 
 # 'vscode --install-extension' via `vscode "[identifier]"`
