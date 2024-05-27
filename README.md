@@ -6,7 +6,7 @@ This is my personal collection of dotfiles and init configurations, orchestrated
 Run:
 ```
 git clone --recursive git@github.com:sbenson09/.dotfiles.git ~/.dotfiles
-~/.dotfiles/zero/setup
+~/.dotfiles/zero/setup [workspace]
 ```
 
 ## Tools
@@ -44,82 +44,3 @@ git clone --recursive git@github.com:sbenson09/.dotfiles.git ~/.dotfiles
 ### Work only
 
 * ~/.gitconfig
-
-## Brew packages installed
-
-### Global
-
-* zero
-* stow #Zero dependency
-* 1password-cli
-* awscli
-* terraform
-* htop
-* tree
-* jq
-* gh
-* kind
-* wget
-* kubernetes-cli
-* ansible
-* mas
-* pure
-* zsh-syntax-highlighting
-* kubectx
-* dive
-* bat
-* node
-* nmap
-* trivy
-* helm
-* hugo
-* go
-* 1password
-* rectangle
-* visual-studio-code
-* monitorcontrol
-* docker
-* the-unarchiver
-* slack
-* zoom
-* github
-* raycast
-* vagrant
-* google-cloud-sdk
-* hyper
-* stats
-* postman
-* wireshark
-
-### Home only
-
-* sony-ps-remote-play (home)
-* joplin (home)
-* calibre (home)
-* android-file-transfer (home)
-* send-to-kindle (home)
-* pocket-casts (home)
-* transmission (home)
-* grandperspective (home)
-* utm (home)
-* sonos (home)
-* tailscale (home)
-* anki (home)
-* caffeine (home)
-* signal (home)
-* discord (home)
-* firefox (home)
-* spotify (home)
-* basecamp (home)
-* steam (home)
-* hey (home)
-* vivaldi (home)
-* python@3.12 (home)
-
-### Work only
-
-* python@3.11 (work)
-
-## Usage
-
-zero: <https://github.com/zero-sh/zero.sh>
