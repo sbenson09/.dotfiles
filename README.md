@@ -114,7 +114,7 @@ git clone --recursive git@github.com:sbenson09/.dotfiles.git ~/.dotfiles
 * steam (home)
 * hey (home)
 * vivaldi (home)
-* python (home)
+* python@3.12 (home)
 
 ### Work only
 
