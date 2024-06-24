@@ -3,7 +3,7 @@
   "editor.wordWrap": "on",
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
@@ -35,6 +35,9 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file"
   },
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "git.autofetch": true
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+  "git.autofetch": true,
+  "autopep8.args": [
+    "--max-line-length=200"
+  ]
 }

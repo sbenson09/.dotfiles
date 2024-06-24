@@ -2,7 +2,7 @@
 [user]
 	name = Sean Benson
 	email = sean.benson@withpersona.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBt8fryDRfgyveNZb2c8a0tBqDFXNeI2BYbvZYCVW811
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDvYqgNDwEEctwevHU/pt9voqd8jyjsPQQHMUBzrogCi
 
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f

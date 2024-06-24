@@ -15,7 +15,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -70,6 +69,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -77,7 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git colored-man-pages colorize pip python brew macos)
-plugins=(git zsh-autosuggestions kubectl aws brew colored-man-pages command-not-found docker docker-compose gh helm kubectx macos kind pip python pyenv terraform vagrant vscode gcloud zsh-syntax-highlighting)
+plugins=(git kubectl aws brew colored-man-pages command-not-found docker docker-compose gh helm kubectx macos kind pip python pyenv terraform vagrant vscode gcloud)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -111,3 +113,4 @@ export BAT_THEME="DarkNeon"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme

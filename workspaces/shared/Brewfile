@@ -5,6 +5,7 @@ tap "zero-sh/tap"
 # set arguments for all 'brew install --cask' commands
 cask_args appdir: "/Applications", require_sha: true
 
+
 # 'brew install' via  `brew "[packagename]"``
 brew "ansible"
 brew "awscli"
@@ -23,6 +24,7 @@ brew "mas"
 brew "nmap"
 brew "node"
 brew "opentofu"
+brew "powerlevel10k"
 brew "pure"
 brew "stow"
 brew "terraform"
@@ -30,12 +32,15 @@ brew "tree"
 brew "trivy"
 brew "wget"
 brew "zero"
+brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
+
 
 # 'brew install --cask' via `cask "[packagename]"`
 cask "1password"
 cask "1password-cli"
 cask "docker"
+cask "font-meslo-lg-nerd-font"
 cask "github"
 cask "google-cloud-sdk"
 cask "hyper"
@@ -51,10 +56,10 @@ cask "vagrant"
 cask "visual-studio-code"
 cask "wireshark"
 cask "zoom"
+cask "spotify"
 
 # 'mas install' via `mas "[packagename], id: [idnumber]`
 mas "Anybox", id: 1593408455
-
 
 
 # 'vscode --install-extension' via `vscode "[identifier]"`
