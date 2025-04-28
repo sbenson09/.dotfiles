@@ -1,5 +1,7 @@
 # dotfiles
 
+To be archived soon, replaced with my [macos-nix](https://github.com/sbenson09/macos-nix) configuration.
+
 This is my personal collection of dotfiles and init configurations, orchestrated via [zero](https://github.com/zero-sh/zero.sh).
 
 ## Usage
